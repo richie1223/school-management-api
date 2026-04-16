@@ -1,0 +1,250 @@
+{
+  "info": {
+    "_postman_id": "5a69af20-3d7c-40c5-bcac-3da7ab02ab3e",
+    "name": "New Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "28563470"
+  },
+  "item": [
+    {
+      "name": "https://school-management-api-production-b761.up.railway.app/listSchools",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://school-management-api-production-b761.up.railway.app/listSchools?latitude=8.81&longitude=78.14",
+          "protocol": "https",
+          "host": [
+            "school-management-api-production-b761",
+            "up",
+            "railway",
+            "app"
+          ],
+          "path": [
+            "listSchools"
+          ],
+          "query": [
+            {
+              "key": "latitude",
+              "value": "8.81"
+            },
+            {
+              "key": "longitude",
+              "value": "78.14"
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "https://school-management-api-production-b761.up.railway.app/listSchools",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://school-management-api-production-b761.up.railway.app/listSchools?latitude=8.81&longitude=78.14",
+              "protocol": "https",
+              "host": [
+                "school-management-api-production-b761",
+                "up",
+                "railway",
+                "app"
+              ],
+              "path": [
+                "listSchools"
+              ],
+              "query": [
+                {
+                  "key": "latitude",
+                  "value": "8.81"
+                },
+                {
+                  "key": "longitude",
+                  "value": "78.14"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Content-Length",
+              "value": "1970"
+            },
+            {
+              "key": "x-railway-cdn-edge",
+              "value": "fastly/cache-iad-kiad7000151-IAD"
+            },
+            {
+              "key": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "date",
+              "value": "Thu, 16 Apr 2026 17:17:14 GMT"
+            },
+            {
+              "key": "etag",
+              "value": "W/\"7b2-DwF1QIPAL1cHR+5Ei83A2/ph52c\""
+            },
+            {
+              "key": "server",
+              "value": "railway-edge"
+            },
+            {
+              "key": "x-powered-by",
+              "value": "Express"
+            },
+            {
+              "key": "x-railway-edge",
+              "value": "railway/us-east4-eqdc4a"
+            },
+            {
+              "key": "x-railway-request-id",
+              "value": "5jx8GX7MRo-NsM2XBT7zVQ"
+            },
+            {
+              "key": "x-cache",
+              "value": "MISS"
+            },
+            {
+              "key": "x-cache-hits",
+              "value": "0"
+            },
+            {
+              "key": "x-served-by",
+              "value": "cache-iad-kiad7000151-IAD"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n    {\n        \"id\": 1,\n        \"name\": \"Central High School\",\n        \"address\": \"123 Braint Nagar, Thoothukudi\",\n        \"latitude\": 8.81,\n        \"longitude\": 78.14,\n        \"distance\": 0\n    },\n    {\n        \"id\": 5,\n        \"name\": \"Subbiah Vidyalayam\",\n        \"address\": \"Chidambara Nagar, Thoothukudi\",\n        \"latitude\": 8.8021,\n        \"longitude\": 78.139,\n        \"distance\": 0.8852859583882275\n    },\n    {\n        \"id\": 7,\n        \"name\": \"BMC Matric School\",\n        \"address\": \"Anna Nagar, Thoothukudi\",\n        \"latitude\": 8.798,\n        \"longitude\": 78.131,\n        \"distance\": 1.6608759724101068\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Holy Cross School\",\n        \"address\": \"Cruz Puram, Thoothukudi\",\n        \"latitude\": 8.8115,\n        \"longitude\": 78.156,\n        \"distance\": 1.7660186522502324\n    },\n    {\n        \"id\": 2,\n        \"name\": \"St. Marys School\",\n        \"address\": \"Tuticorin Main Road\",\n        \"latitude\": 8.7942,\n        \"longitude\": 78.1348,\n        \"distance\": 1.847465602203268\n    },\n    {\n        \"id\": 6,\n        \"name\": \"St. Thomas Matriculation\",\n        \"address\": \"Inigo Nagar, Thoothukudi\",\n        \"latitude\": 8.815,\n        \"longitude\": 78.161,\n        \"distance\": 2.3735609512204245\n    },\n    {\n        \"id\": 4,\n        \"name\": \"Vikasa School\",\n        \"address\": \"Millerpuram, Thoothukudi\",\n        \"latitude\": 8.7904,\n        \"longitude\": 78.1285,\n        \"distance\": 2.5192819653724436\n    },\n    {\n        \"id\": 8,\n        \"name\": \"Loyola High School\",\n        \"address\": \"Kovilpatti Road, Thoothukudi\",\n        \"latitude\": 8.823,\n        \"longitude\": 78.105,\n        \"distance\": 4.108532182977826\n    },\n    {\n        \"id\": 9,\n        \"name\": \"Grace Matric School\",\n        \"address\": \"Palayamkottai Road, Thoothukudi\",\n        \"latitude\": 8.785,\n        \"longitude\": 78.112,\n        \"distance\": 4.146633208002146\n    },\n    {\n        \"id\": 10,\n        \"name\": \"AVM Kamalavel School\",\n        \"address\": \"Meelavittan, Thoothukudi\",\n        \"latitude\": 8.812,\n        \"longitude\": 78.085,\n        \"distance\": 6.047639642337487\n    },\n    {\n        \"id\": 12,\n        \"name\": \"Little Flower School\",\n        \"address\": \"Thermal Nagar, Thoothukudi\",\n        \"latitude\": 8.745,\n        \"longitude\": 78.165,\n        \"distance\": 7.732203002180014\n    },\n    {\n        \"id\": 13,\n        \"name\": \"Harbor Primary School\",\n        \"address\": \"Port Area, Thoothukudi\",\n        \"latitude\": 8.752,\n        \"longitude\": 78.182,\n        \"distance\": 7.930693680926377\n    },\n    {\n        \"id\": 14,\n        \"name\": \"Harbor Primary School\",\n        \"address\": \"Port Area, Thoothukudi\",\n        \"latitude\": 8.752,\n        \"longitude\": 78.182,\n        \"distance\": 7.930693680926377\n    },\n    {\n        \"id\": 11,\n        \"name\": \"Senthil Murugan School\",\n        \"address\": \"Spic Nagar, Thoothukudi\",\n        \"latitude\": 8.715,\n        \"longitude\": 78.142,\n        \"distance\": 10.565804402327899\n    }\n]"
+        }
+      ]
+    },
+    {
+      "name": "https://school-management-api-production-b761.up.railway.app/addschool",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Harbor Primary School\",\r\n  \"address\": \"Port Area, Thoothukudi\",\r\n  \"latitude\": 8.7520,\r\n  \"longitude\": 78.1820\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://school-management-api-production-b761.up.railway.app/addschool",
+          "protocol": "https",
+          "host": [
+            "school-management-api-production-b761",
+            "up",
+            "railway",
+            "app"
+          ],
+          "path": [
+            "addschool"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "https://school-management-api-production-b761.up.railway.app/addschool",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"Harbor Primary School\",\r\n  \"address\": \"Port Area, Thoothukudi\",\r\n  \"latitude\": 8.7520,\r\n  \"longitude\": 78.1820\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://school-management-api-production-b761.up.railway.app/addschool",
+              "protocol": "https",
+              "host": [
+                "school-management-api-production-b761",
+                "up",
+                "railway",
+                "app"
+              ],
+              "path": [
+                "addschool"
+              ]
+            }
+          },
+          "status": "Created",
+          "code": 201,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Content-Length",
+              "value": "53"
+            },
+            {
+              "key": "x-railway-cdn-edge",
+              "value": "fastly/cache-iad-kiad7000162-IAD"
+            },
+            {
+              "key": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "date",
+              "value": "Thu, 16 Apr 2026 17:17:10 GMT"
+            },
+            {
+              "key": "etag",
+              "value": "W/\"35-auQdseVQhet/tiKbpF/k6n8vNR4\""
+            },
+            {
+              "key": "server",
+              "value": "railway-edge"
+            },
+            {
+              "key": "x-powered-by",
+              "value": "Express"
+            },
+            {
+              "key": "x-railway-edge",
+              "value": "railway/us-east4-eqdc4a"
+            },
+            {
+              "key": "x-railway-request-id",
+              "value": "rskgCclFTwieaqEywoOzXw"
+            },
+            {
+              "key": "x-cache",
+              "value": "MISS"
+            },
+            {
+              "key": "x-cache-hits",
+              "value": "0"
+            },
+            {
+              "key": "x-served-by",
+              "value": "cache-iad-kiad7000162-IAD"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"message\": \"School added successfully\",\n    \"schoolId\": 14\n}"
+        }
+      ]
+    }
+  ]
+}
